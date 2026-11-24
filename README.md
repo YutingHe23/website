@@ -14,4 +14,6 @@ The publication order is ScenePress, AniGen, HoloMobile, DeepFeature, Myo-Traine
 
 Publication media comes from the authors' research materials: ScenePress and AniGen animations from [Yi-Hua Huang's homepage](https://yihua7.github.io/website/), author-provided HoloMobile and Myo-Trainer demos, the [DeepFeature overview figure](https://arxiv.org/html/2512.08379v3/overview.png), and the [original Learning Critically figure](https://yutinghe20.github.io/YutingHe/images/papers/fedssd_framework.png). Animations have static alternatives for visitors who prefer reduced motion.
 
+The desktop layout follows the reference template's column proportions, typography, and spacing. Each paper has one preview on the left, with its title and all metadata on the right; narrow screens retain this arrangement with smaller previews. The portrait is reused from [Yuting He's original homepage](https://yutinghe20.github.io/YutingHe/).
+
 To publish with GitHub Pages, select **Settings → Pages → Deploy from a branch**, then choose **main** and **/ (root)**. The expected site URL is `https://yutinghe23.github.io/website/` after Pages is enabled.

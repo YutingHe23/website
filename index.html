@@ -6,159 +6,142 @@
   <meta name="description" content="Yuting He — Ph.D. student at The Chinese University of Hong Kong. Research in multimodal intelligence, 3D vision, and efficient AI systems.">
   <meta name="author" content="Yuting He">
   <title>Yuting He · Research</title>
-  <link rel="stylesheet" href="style.css?v=20261124-compact">
+  <link rel="stylesheet" href="style.css?v=20261124-template">
 </head>
 <body>
+  <a class="skip-link" href="#research">Skip to publications</a>
   <main class="page">
-    <header class="hero">
-      <div class="hero-copy">
-        <h1>Yuting He</h1>
-        <nav class="links" aria-label="Contact and academic profiles">
-          <a class="scholar-link" href="https://scholar.google.com/citations?user=LCEZBmUAAAAJ&amp;hl=zh-CN" target="_blank" rel="noopener noreferrer">Google Scholar <span aria-hidden="true">↗</span></a>
-          <a href="mailto:heyuting@link.cuhk.edu.hk">Email</a>
-          <a href="https://github.com/YutingHe23" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span></a>
-        </nav>
-        <p class="role">Ph.D. Student · The Chinese University of Hong Kong</p>
-        <p class="lede">I study how multimodal models can perceive, reason about, and act in the physical world.</p>
+    <header class="profile" aria-labelledby="name">
+      <div class="profile-heading">
+        <h1 id="name">Yuting He</h1>
+        <nav aria-label="Contact and academic profiles" class="profile-links">
+<a class="scholar-link" href="https://scholar.google.com/citations?user=LCEZBmUAAAAJ&amp;hl=zh-CN" rel="noopener noreferrer" target="_blank">Google Scholar <span aria-hidden="true">↗</span></a>
+<a href="mailto:heyuting@link.cuhk.edu.hk">Email</a>
+<a href="https://github.com/YutingHe23" rel="noopener noreferrer" target="_blank">GitHub <span aria-hidden="true">↗</span></a>
+</nav>
+      </div>
+      <a class="portrait" href="assets/portrait.webp" aria-label="View portrait of Yuting He">
+        <img src="assets/portrait.webp" alt="Yuting He" width="400" height="400" fetchpriority="high">
+      </a>
+      <div class="bio">
+        <p>I am a Ph.D. student at <a href="https://www.cuhk.edu.hk/" rel="noreferrer" target="_blank">The Chinese University of Hong Kong</a>. My recent work connects generative 3D/4D modeling, multimodal sensing, and efficient on-device inference to build intelligent systems that understand people, objects, and environments.</p><p>Before moving into 3D and embodied intelligence, I worked on federated learning, knowledge distillation, and long-tail learning. I enjoy building complete research systems—from datasets and models to interactive demos—and releasing the pieces that help others reproduce and extend the work.</p>
       </div>
     </header>
 
-    <section class="intro section-grid" aria-labelledby="about-title">
-      <div class="section-label" id="about-title">About</div>
-      <div class="section-body prose">
-        <p>I am a Ph.D. student at <a href="https://www.cuhk.edu.hk/" target="_blank" rel="noreferrer">The Chinese University of Hong Kong</a>. My recent work connects generative 3D/4D modeling, multimodal sensing, and efficient on-device inference to build intelligent systems that understand people, objects, and environments.</p>
-        <p>Before moving into 3D and embodied intelligence, I worked on federated learning, knowledge distillation, and long-tail learning. I enjoy building complete research systems—from datasets and models to interactive demos—and releasing the pieces that help others reproduce and extend the work.</p>
-        <div class="topics" aria-label="Research areas">
-          <span>Generative 3D &amp; 4D</span>
-          <span>Multimodal sensing</span>
-          <span>Efficient AI systems</span>
-          <span>Human-centered computing</span>
-        </div>
+    <section id="research" aria-labelledby="research-heading" tabindex="-1">
+      <div class="section-heading">
+        <h2 id="research-heading">Selected Publications</h2>
+        <a class="full-list-link" href="https://scholar.google.com/citations?user=LCEZBmUAAAAJ&amp;hl=zh-CN" target="_blank" rel="noopener noreferrer">Full List <span aria-hidden="true">↗</span></a>
       </div>
-    </section>
+      <div id="publication-list">
+        <article class="publication" id="scenepress" aria-labelledby="scenepress-title">
+          <header class="publication-heading">
+            <h3 class="paper-title" id="scenepress-title">ScenePress: Fast, Low-Cost, Simulation-Ready Indoor Worlds from Lightweight LLMs</h3>
+            <p class="paper-authors">Yi-Hua Huang, <strong>Yuting He</strong>, Ziyi Yang, Mingxian Lin, Zi-Xin Zou, Yan-Pei Cao, Xiaojuan Qi</p>
+            <p class="paper-venue">Manuscript, 2026</p>
 
-    <section class="publications" aria-labelledby="work-title">
-      <div class="publications-heading">
-        <h2 id="work-title">Selected Publications</h2>
-        <a class="full-list" href="https://scholar.google.com/citations?user=LCEZBmUAAAAJ&amp;hl=zh-CN" target="_blank" rel="noopener noreferrer">Full list on Google Scholar <span aria-hidden="true">↗</span></a>
-      </div>
-      <div class="work-list">
-        <article class="work-card" id="scenepress" aria-labelledby="scenepress-title">
-          <figure class="paper-media">
-          <a href="assets/scenepress-demo.webp" target="_blank" rel="noopener noreferrer" aria-label="View scenepress image at full size">
-          <picture><source media="(prefers-reduced-motion: reduce)" srcset="assets/scenepress-poster.webp"><img src="assets/scenepress-demo.webp" alt="ScenePress demonstrations of furnished indoor scenes, articulated furniture, and robot interaction." width="540" height="360" loading="lazy" decoding="async"></picture>
-          </a>
-          </figure>
-          <div class="paper-details">
-            <header class="paper-heading">
-            <h3 id="scenepress-title">ScenePress: Fast, Low-Cost, Simulation-Ready Indoor Worlds from Lightweight LLMs</h3>
-            <p class="authors">Yi-Hua Huang, <strong>Yuting He</strong>, Ziyi Yang, Mingxian Lin, Zi-Xin Zou, Yan-Pei Cao, Xiaojuan Qi</p>
-            <div class="work-meta"><span class="year">2026</span><span class="status">Manuscript</span></div>
-            </header>
-            <p class="summary">Lightweight language models write high-level scene programs. A compiler checks layouts and builds articulated assets, turning those programs into varied indoor worlds for embodied simulation.</p>
+          </header>
+          <figure class="publication-preview">
+<a aria-label="View scenepress image at full size" class="preview-link" href="assets/scenepress-demo.webp" rel="noopener noreferrer" target="_blank">
+<picture><source media="(prefers-reduced-motion: reduce)" srcset="assets/scenepress-poster.webp"/><img alt="ScenePress demonstrations of furnished indoor scenes, articulated furniture, and robot interaction." decoding="async" height="360" loading="lazy" src="assets/scenepress-demo.webp" width="540"/></picture>
+</a>
+</figure>
+          <div class="publication-content">
+            <p class="paper-description">Lightweight language models write high-level scene programs. A compiler checks layouts and builds articulated assets, turning those programs into varied indoor worlds for embodied simulation.</p>
           </div>
         </article>
-        <article class="work-card" id="anigen" aria-labelledby="anigen-title">
-          <figure class="paper-media">
-          <a href="assets/anigen-demo.webp" target="_blank" rel="noopener noreferrer" aria-label="View anigen image at full size">
-          <picture><source media="(prefers-reduced-motion: reduce)" srcset="assets/anigen-poster.webp"><img src="assets/anigen-demo.webp" alt="AniGen generates a 3D asset, skeleton, and skinning from an input image, then animates the result." width="640" height="359" loading="lazy" decoding="async"></picture>
-          </a>
-          </figure>
-          <div class="paper-details">
-            <header class="paper-heading">
-            <h3 id="anigen-title">AniGen: Unified S<sup>3</sup> Fields for Animatable 3D Asset Generation</h3>
-            <p class="authors">Yi-Hua Huang, Zi-Xin Zou, <strong>Yuting He</strong>, Chirui Chang, Cheng-Feng Pu, Ziyi Yang, Yuan-Chen Guo, Yan-Pei Cao, Xiaojuan Qi</p>
-            <div class="work-meta"><span class="year">2026</span><span class="status">SIGGRAPH · ACM Transactions on Graphics</span></div>
-            <nav class="work-links" aria-label="anigen resources"><a href="https://arxiv.org/abs/2604.08746" target="_blank" rel="noopener noreferrer">Paper <span aria-hidden="true">↗</span></a><a href="https://yihua7.github.io/AniGen-web/" target="_blank" rel="noopener noreferrer">Project <span aria-hidden="true">↗</span></a><a href="https://github.com/VAST-AI-Research/AniGen" target="_blank" rel="noopener noreferrer">Code <span aria-hidden="true">↗</span></a></nav>
-            </header>
-            <p class="summary">AniGen jointly generates shape, skeleton, and skinning in a shared spatial representation. The resulting 3D assets are ready to animate, without a separate post-hoc rigging pipeline.</p>
+        <article class="publication" id="anigen" aria-labelledby="anigen-title">
+          <header class="publication-heading">
+            <h3 class="paper-title" id="anigen-title">AniGen: Unified S<sup>3</sup> Fields for Animatable 3D Asset Generation</h3>
+            <p class="paper-authors">Yi-Hua Huang, Zi-Xin Zou, <strong>Yuting He</strong>, Chirui Chang, Cheng-Feng Pu, Ziyi Yang, Yuan-Chen Guo, Yan-Pei Cao, Xiaojuan Qi</p>
+            <p class="paper-venue">SIGGRAPH · ACM Transactions on Graphics, 2026</p>
+            <nav aria-label="anigen resources" class="paper-links"><a href="https://arxiv.org/abs/2604.08746" rel="noopener noreferrer" target="_blank">Paper <span aria-hidden="true">↗</span></a><a href="https://yihua7.github.io/AniGen-web/" rel="noopener noreferrer" target="_blank">Project <span aria-hidden="true">↗</span></a><a href="https://github.com/VAST-AI-Research/AniGen" rel="noopener noreferrer" target="_blank">Code <span aria-hidden="true">↗</span></a></nav>
+          </header>
+          <figure class="publication-preview">
+<a aria-label="View anigen image at full size" class="preview-link" href="assets/anigen-demo.webp" rel="noopener noreferrer" target="_blank">
+<picture><source media="(prefers-reduced-motion: reduce)" srcset="assets/anigen-poster.webp"/><img alt="AniGen generates a 3D asset, skeleton, and skinning from an input image, then animates the result." decoding="async" height="359" loading="lazy" src="assets/anigen-demo.webp" width="640"/></picture>
+</a>
+</figure>
+          <div class="publication-content">
+            <p class="paper-description">AniGen jointly generates shape, skeleton, and skinning in a shared spatial representation. The resulting 3D assets are ready to animate, without a separate post-hoc rigging pipeline.</p>
           </div>
         </article>
-        <article class="work-card" id="holomobile" aria-labelledby="holomobile-title">
-          <figure class="paper-media">
-          <a href="assets/holomobile-demo.gif" target="_blank" rel="noopener noreferrer" aria-label="View holomobile image at full size">
-          <picture><source media="(prefers-reduced-motion: reduce)" srcset="assets/holomobile-poster.webp"><img src="assets/holomobile-demo.gif" alt="HoloMobile demonstration showing mobile video capture of a person and an avatar performing custom motion." width="720" height="405" loading="lazy" decoding="async"></picture>
-          </a>
-          </figure>
-          <div class="paper-details">
-            <header class="paper-heading">
-            <h3 id="holomobile-title">HoloMobile: Photorealistic Avatar on Mobile via Compact Dynamic Gaussians from a Monocular Video</h3>
-            <p class="authors"><strong>Yuting He</strong>, Yi-Hua Huang, Xiaojuan Qi, Zhenyu Yan, Guoliang Xing</p>
-            <div class="work-meta"><span class="year">2026</span><span class="status">ACM MobiSys</span></div>
-            <nav class="work-links" aria-label="holomobile resources"><a href="https://doi.org/10.1145/3745756.3809219" target="_blank" rel="noopener noreferrer">Paper <span aria-hidden="true">↗</span></a><a href="https://youtu.be/kfOFV7AiP5A" target="_blank" rel="noopener noreferrer">Video <span aria-hidden="true">↗</span></a></nav>
-            </header>
-            <p class="summary">HoloMobile builds photorealistic, animatable avatars from monocular video using compact dynamic Gaussians, enabling mobile capture and real-time avatar viewing on mobile devices.</p>
+        <article class="publication" id="holomobile" aria-labelledby="holomobile-title">
+          <header class="publication-heading">
+            <h3 class="paper-title" id="holomobile-title">HoloMobile: Photorealistic Avatar on Mobile via Compact Dynamic Gaussians from a Monocular Video</h3>
+            <p class="paper-authors"><strong>Yuting He</strong>, Yi-Hua Huang, Xiaojuan Qi, Zhenyu Yan, Guoliang Xing</p>
+            <p class="paper-venue">ACM MobiSys, 2026</p>
+            <nav aria-label="holomobile resources" class="paper-links"><a href="https://doi.org/10.1145/3745756.3809219" rel="noopener noreferrer" target="_blank">Paper <span aria-hidden="true">↗</span></a><a href="https://youtu.be/kfOFV7AiP5A" rel="noopener noreferrer" target="_blank">Video <span aria-hidden="true">↗</span></a></nav>
+          </header>
+          <figure class="publication-preview">
+<a aria-label="View holomobile image at full size" class="preview-link" href="assets/holomobile-demo.gif" rel="noopener noreferrer" target="_blank">
+<picture><source media="(prefers-reduced-motion: reduce)" srcset="assets/holomobile-poster.webp"/><img alt="HoloMobile demonstration showing mobile video capture of a person and an avatar performing custom motion." decoding="async" height="405" loading="lazy" src="assets/holomobile-demo.gif" width="720"/></picture>
+</a>
+</figure>
+          <div class="publication-content">
+            <p class="paper-description">HoloMobile builds photorealistic, animatable avatars from monocular video using compact dynamic Gaussians, enabling mobile capture and real-time avatar viewing on mobile devices.</p>
           </div>
         </article>
-        <article class="work-card" id="deepfeature" aria-labelledby="deepfeature-title">
-          <figure class="paper-media">
-          <a href="assets/deepfeature-overview.webp" target="_blank" rel="noopener noreferrer" aria-label="View deepfeature image at full size">
-          <img src="assets/deepfeature-overview.webp" alt="DeepFeature framework: multi-source feature generation, feature-to-code translation, and iterative refinement for wearable biosignals." width="1500" height="712" loading="lazy" decoding="async">
-          </a>
-          </figure>
-          <div class="paper-details">
-            <header class="paper-heading">
-            <h3 id="deepfeature-title">DeepFeature: LLM-Empowered Context-aware Feature Generation for Wearable Biosignals</h3>
-            <p class="authors">Kaiwei Liu, <strong>Yuting He</strong>, Bufang Yang, Mu Yuan, Chun Man Victor Wong, Ho Pong Andrew Sze, Guoliang Xing, Zhenyu Yan, Hongkai Chen</p>
-            <div class="work-meta"><span class="year">2026</span><span class="status">ACM IMWUT</span></div>
-            <nav class="work-links" aria-label="deepfeature resources"><a href="https://doi.org/10.1145/3831996" target="_blank" rel="noopener noreferrer">Paper <span aria-hidden="true">↗</span></a><a href="https://arxiv.org/abs/2512.08379" target="_blank" rel="noopener noreferrer">arXiv <span aria-hidden="true">↗</span></a></nav>
-            </header>
-            <p class="summary">DeepFeature uses task context and expert knowledge to generate interpretable biosignal features. It translates feature descriptions into executable code and refines them using downstream model feedback.</p>
+        <article class="publication" id="deepfeature" aria-labelledby="deepfeature-title">
+          <header class="publication-heading">
+            <h3 class="paper-title" id="deepfeature-title">DeepFeature: LLM-Empowered Context-aware Feature Generation for Wearable Biosignals</h3>
+            <p class="paper-authors">Kaiwei Liu, <strong>Yuting He</strong>, Bufang Yang, Mu Yuan, Chun Man Victor Wong, Ho Pong Andrew Sze, Guoliang Xing, Zhenyu Yan, Hongkai Chen</p>
+            <p class="paper-venue">ACM IMWUT, 2026</p>
+            <nav aria-label="deepfeature resources" class="paper-links"><a href="https://doi.org/10.1145/3831996" rel="noopener noreferrer" target="_blank">Paper <span aria-hidden="true">↗</span></a><a href="https://arxiv.org/abs/2512.08379" rel="noopener noreferrer" target="_blank">arXiv <span aria-hidden="true">↗</span></a></nav>
+          </header>
+          <figure class="publication-preview">
+<a aria-label="View deepfeature image at full size" class="preview-link" href="assets/deepfeature-overview.webp" rel="noopener noreferrer" target="_blank">
+<img alt="DeepFeature framework: multi-source feature generation, feature-to-code translation, and iterative refinement for wearable biosignals." decoding="async" height="712" loading="lazy" src="assets/deepfeature-overview.webp" width="1500"/>
+</a>
+</figure>
+          <div class="publication-content">
+            <p class="paper-description">DeepFeature uses task context and expert knowledge to generate interpretable biosignal features. It translates feature descriptions into executable code and refines them using downstream model feedback.</p>
           </div>
         </article>
-        <article class="work-card" id="myotrainer" aria-labelledby="myotrainer-title">
-          <figure class="paper-media">
-          <a href="assets/myotrainer-demo.gif" target="_blank" rel="noopener noreferrer" aria-label="View myotrainer image at full size">
-          <picture><source media="(prefers-reduced-motion: reduce)" srcset="assets/myotrainer-poster.webp"><img src="assets/myotrainer-demo.gif" alt="Myo-Trainer demo identifying a biceps curl and visualizing estimated muscle activation from video." width="720" height="559" loading="lazy" decoding="async"></picture>
-          </a>
-          </figure>
-          <div class="paper-details">
-            <header class="paper-heading">
-            <h3 id="myotrainer-title">Myo-Trainer: A Vision-based Muscle-Aware Motion Feedback System for In-Home Resistance Training</h3>
-            <p class="authors"><strong>Yuting He</strong>, Xinyan Wang, Mu Yuan, Bufang Yang, Siyang Jiang, Yihua Huang, Doris S. F. Yu, Guoliang Xing, Hongkai Chen</p>
-            <div class="work-meta"><span class="year">2025</span><span class="status">ACM MobiCom</span></div>
-            <nav class="work-links" aria-label="myotrainer resources"><a href="https://doi.org/10.1145/3680207.3765243" target="_blank" rel="noopener noreferrer">Paper <span aria-hidden="true">↗</span></a><a href="https://github.com/YutingHe23/Myo-Trainer" target="_blank" rel="noopener noreferrer">Code <span aria-hidden="true">↗</span></a></nav>
-            </header>
-            <p class="summary">Myo-Trainer learns the relationship between visual motion and muscle activity, then uses video to analyze exercise technique and provide muscle-aware feedback for resistance training at home.</p>
+        <article class="publication" id="myotrainer" aria-labelledby="myotrainer-title">
+          <header class="publication-heading">
+            <h3 class="paper-title" id="myotrainer-title">Myo-Trainer: A Vision-based Muscle-Aware Motion Feedback System for In-Home Resistance Training</h3>
+            <p class="paper-authors"><strong>Yuting He</strong>, Xinyan Wang, Mu Yuan, Bufang Yang, Siyang Jiang, Yihua Huang, Doris S. F. Yu, Guoliang Xing, Hongkai Chen</p>
+            <p class="paper-venue">ACM MobiCom, 2025</p>
+            <nav aria-label="myotrainer resources" class="paper-links"><a href="https://doi.org/10.1145/3680207.3765243" rel="noopener noreferrer" target="_blank">Paper <span aria-hidden="true">↗</span></a><a href="https://github.com/YutingHe23/Myo-Trainer" rel="noopener noreferrer" target="_blank">Code <span aria-hidden="true">↗</span></a></nav>
+          </header>
+          <figure class="publication-preview">
+<a aria-label="View myotrainer image at full size" class="preview-link" href="assets/myotrainer-demo.gif" rel="noopener noreferrer" target="_blank">
+<picture><source media="(prefers-reduced-motion: reduce)" srcset="assets/myotrainer-poster.webp"/><img alt="Myo-Trainer demo identifying a biceps curl and visualizing estimated muscle activation from video." decoding="async" height="559" loading="lazy" src="assets/myotrainer-demo.gif" width="720"/></picture>
+</a>
+</figure>
+          <div class="publication-content">
+            <p class="paper-description">Myo-Trainer learns the relationship between visual motion and muscle activity, then uses video to analyze exercise technique and provide muscle-aware feedback for resistance training at home.</p>
           </div>
         </article>
-        <article class="work-card" id="learning-critically" aria-labelledby="learning-critically-title">
-          <figure class="paper-media">
-          <a href="assets/learning-critically-framework.webp" target="_blank" rel="noopener noreferrer" aria-label="View learning-critically image at full size">
-          <img src="assets/learning-critically-framework.webp" alt="Selective self-distillation framework showing federated server aggregation, a credibility matrix, and local training." width="1300" height="499" loading="lazy" decoding="async">
-          </a>
-          </figure>
-          <div class="paper-details">
-            <header class="paper-heading">
-            <h3 id="learning-critically-title">Learning Critically: Selective Self-Distillation in Federated Learning on Non-IID Data</h3>
-            <p class="authors"><strong>Yuting He</strong>, Yiqiang Chen, Xiaodong Yang, Hanchao Yu, Yi-Hua Huang, Yang Gu</p>
-            <div class="work-meta"><span class="year">2024</span><span class="status">IEEE Transactions on Big Data · Early access 2022</span></div>
-            <nav class="work-links" aria-label="learning-critically resources"><a href="https://doi.org/10.1109/TBDATA.2022.3189703" target="_blank" rel="noopener noreferrer">Paper <span aria-hidden="true">↗</span></a></nav>
-            </header>
-            <p class="summary">A selective self-distillation method for federated learning on heterogeneous client data. Local models use a credibility matrix to decide which knowledge to transfer from the global model.</p>
+        <article class="publication" id="learning-critically" aria-labelledby="learning-critically-title">
+          <header class="publication-heading">
+            <h3 class="paper-title" id="learning-critically-title">Learning Critically: Selective Self-Distillation in Federated Learning on Non-IID Data</h3>
+            <p class="paper-authors"><strong>Yuting He</strong>, Yiqiang Chen, Xiaodong Yang, Hanchao Yu, Yi-Hua Huang, Yang Gu</p>
+            <p class="paper-venue">IEEE Transactions on Big Data, 2024 · Early access 2022</p>
+            <nav aria-label="learning-critically resources" class="paper-links"><a href="https://doi.org/10.1109/TBDATA.2022.3189703" rel="noopener noreferrer" target="_blank">Paper <span aria-hidden="true">↗</span></a></nav>
+          </header>
+          <figure class="publication-preview">
+<a aria-label="View learning-critically image at full size" class="preview-link" href="assets/learning-critically-framework.webp" rel="noopener noreferrer" target="_blank">
+<img alt="Selective self-distillation framework showing federated server aggregation, a credibility matrix, and local training." decoding="async" height="499" loading="lazy" src="assets/learning-critically-framework.webp" width="1300"/>
+</a>
+</figure>
+          <div class="publication-content">
+            <p class="paper-description">A selective self-distillation method for federated learning on heterogeneous client data. Local models use a credibility matrix to decide which knowledge to transfer from the global model.</p>
           </div>
         </article>
       </div>
     </section>
 
-    <section class="section-grid" aria-labelledby="now-title">
-      <div class="section-label" id="now-title">Now</div>
-      <div class="section-body now-grid">
-        <div>
-          <h2>Research</h2>
-          <p>Generative 3D, multimodal world understanding, and practical systems for embodied intelligence.</p>
-        </div>
-        <div>
-          <h2>Looking for</h2>
-          <p>Research collaborations, thoughtful feedback, and opportunities to make learning systems useful in the real world.</p>
-        </div>
-      </div>
+    <section class="services" aria-labelledby="current-heading">
+      <h2 id="current-heading">Currently</h2>
+      <dl>
+        <dt>Research</dt><dd>Generative 3D, multimodal world understanding, and practical systems for embodied intelligence.</dd>
+<dt>Looking for</dt><dd>Research collaborations, thoughtful feedback, and opportunities to make learning systems useful in the real world.</dd>
+      </dl>
     </section>
-
-    <footer>
-      <span>© Yuting He</span>
-      <span>Last updated November 2026</span>
-      <span>Inspired by <a href="https://yihua7.github.io/website/" target="_blank" rel="noreferrer">Yi-Hua Huang's website</a></span>
+    <footer class="footer">
+      <p>© Yuting He · Updated November 2026. Layout inspired by <a href="https://yihua7.github.io/website/" target="_blank" rel="noopener noreferrer">Yi-Hua Huang</a> and <a href="https://jonbarron.info/" target="_blank" rel="noopener noreferrer">Jon Barron</a>.</p>
     </footer>
   </main>
 </body>
