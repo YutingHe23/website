@@ -6,13 +6,12 @@
   <meta name="description" content="Yuting He — Ph.D. student at The Chinese University of Hong Kong. Research in multimodal intelligence, 3D vision, and efficient AI systems.">
   <meta name="author" content="Yuting He">
   <title>Yuting He · Research</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css?v=20261124-compact">
 </head>
 <body>
   <main class="page">
     <header class="hero">
       <div class="hero-copy">
-        <p class="eyebrow">Researcher · Builder · Collaborator</p>
         <h1>Yuting He</h1>
         <nav class="links" aria-label="Contact and academic profiles">
           <a class="scholar-link" href="https://scholar.google.com/citations?user=LCEZBmUAAAAJ&amp;hl=zh-CN" target="_blank" rel="noopener noreferrer">Google Scholar <span aria-hidden="true">↗</span></a>
@@ -21,9 +20,6 @@
         </nav>
         <p class="role">Ph.D. Student · The Chinese University of Hong Kong</p>
         <p class="lede">I study how multimodal models can perceive, reason about, and act in the physical world.</p>
-      </div>
-      <div class="hero-mark" aria-hidden="true">
-        <span>YH</span>
       </div>
     </header>
 
@@ -48,104 +44,97 @@
       </div>
       <div class="work-list">
         <article class="work-card" id="scenepress" aria-labelledby="scenepress-title">
-          <header class="paper-heading">
-            <div class="work-meta"><span class="year">2026</span><span class="status">Manuscript</span></div>
+          <figure class="paper-media">
+          <a href="assets/scenepress-demo.webp" target="_blank" rel="noopener noreferrer" aria-label="View scenepress image at full size">
+          <picture><source media="(prefers-reduced-motion: reduce)" srcset="assets/scenepress-poster.webp"><img src="assets/scenepress-demo.webp" alt="ScenePress demonstrations of furnished indoor scenes, articulated furniture, and robot interaction." width="540" height="360" loading="lazy" decoding="async"></picture>
+          </a>
+          </figure>
+          <div class="paper-details">
+            <header class="paper-heading">
             <h3 id="scenepress-title">ScenePress: Fast, Low-Cost, Simulation-Ready Indoor Worlds from Lightweight LLMs</h3>
             <p class="authors">Yi-Hua Huang, <strong>Yuting He</strong>, Ziyi Yang, Mingxian Lin, Zi-Xin Zou, Yan-Pei Cao, Xiaojuan Qi</p>
-
-          </header>
-          <div class="paper-body">
-            <figure class="paper-media">
-              <a href="assets/scenepress-demo.webp" target="_blank" rel="noopener noreferrer" aria-label="View scenepress image at full size">
-                <picture><source media="(prefers-reduced-motion: reduce)" srcset="assets/scenepress-poster.webp"><img src="assets/scenepress-demo.webp" alt="ScenePress demonstrations of furnished indoor scenes, articulated furniture, and robot interaction." width="540" height="360" loading="lazy" decoding="async"></picture>
-              </a>
-              <figcaption>Programmable scenes with articulated assets and robot interaction.</figcaption>
-            </figure>
+            <div class="work-meta"><span class="year">2026</span><span class="status">Manuscript</span></div>
+            </header>
             <p class="summary">Lightweight language models write high-level scene programs. A compiler checks layouts and builds articulated assets, turning those programs into varied indoor worlds for embodied simulation.</p>
           </div>
         </article>
         <article class="work-card" id="anigen" aria-labelledby="anigen-title">
-          <header class="paper-heading">
-            <div class="work-meta"><span class="year">2026</span><span class="status">SIGGRAPH · ACM Transactions on Graphics</span></div>
+          <figure class="paper-media">
+          <a href="assets/anigen-demo.webp" target="_blank" rel="noopener noreferrer" aria-label="View anigen image at full size">
+          <picture><source media="(prefers-reduced-motion: reduce)" srcset="assets/anigen-poster.webp"><img src="assets/anigen-demo.webp" alt="AniGen generates a 3D asset, skeleton, and skinning from an input image, then animates the result." width="640" height="359" loading="lazy" decoding="async"></picture>
+          </a>
+          </figure>
+          <div class="paper-details">
+            <header class="paper-heading">
             <h3 id="anigen-title">AniGen: Unified S<sup>3</sup> Fields for Animatable 3D Asset Generation</h3>
             <p class="authors">Yi-Hua Huang, Zi-Xin Zou, <strong>Yuting He</strong>, Chirui Chang, Cheng-Feng Pu, Ziyi Yang, Yuan-Chen Guo, Yan-Pei Cao, Xiaojuan Qi</p>
+            <div class="work-meta"><span class="year">2026</span><span class="status">SIGGRAPH · ACM Transactions on Graphics</span></div>
             <nav class="work-links" aria-label="anigen resources"><a href="https://arxiv.org/abs/2604.08746" target="_blank" rel="noopener noreferrer">Paper <span aria-hidden="true">↗</span></a><a href="https://yihua7.github.io/AniGen-web/" target="_blank" rel="noopener noreferrer">Project <span aria-hidden="true">↗</span></a><a href="https://github.com/VAST-AI-Research/AniGen" target="_blank" rel="noopener noreferrer">Code <span aria-hidden="true">↗</span></a></nav>
-          </header>
-          <div class="paper-body">
-            <figure class="paper-media">
-              <a href="assets/anigen-demo.webp" target="_blank" rel="noopener noreferrer" aria-label="View anigen image at full size">
-                <picture><source media="(prefers-reduced-motion: reduce)" srcset="assets/anigen-poster.webp"><img src="assets/anigen-demo.webp" alt="AniGen generates a 3D asset, skeleton, and skinning from an input image, then animates the result." width="640" height="359" loading="lazy" decoding="async"></picture>
-              </a>
-              <figcaption>From one image to geometry, skeleton, skinning, and animation.</figcaption>
-            </figure>
+            </header>
             <p class="summary">AniGen jointly generates shape, skeleton, and skinning in a shared spatial representation. The resulting 3D assets are ready to animate, without a separate post-hoc rigging pipeline.</p>
           </div>
         </article>
         <article class="work-card" id="holomobile" aria-labelledby="holomobile-title">
-          <header class="paper-heading">
-            <div class="work-meta"><span class="year">2026</span><span class="status">ACM MobiSys</span></div>
+          <figure class="paper-media">
+          <a href="assets/holomobile-demo.gif" target="_blank" rel="noopener noreferrer" aria-label="View holomobile image at full size">
+          <picture><source media="(prefers-reduced-motion: reduce)" srcset="assets/holomobile-poster.webp"><img src="assets/holomobile-demo.gif" alt="HoloMobile demonstration showing mobile video capture of a person and an avatar performing custom motion." width="720" height="405" loading="lazy" decoding="async"></picture>
+          </a>
+          </figure>
+          <div class="paper-details">
+            <header class="paper-heading">
             <h3 id="holomobile-title">HoloMobile: Photorealistic Avatar on Mobile via Compact Dynamic Gaussians from a Monocular Video</h3>
             <p class="authors"><strong>Yuting He</strong>, Yi-Hua Huang, Xiaojuan Qi, Zhenyu Yan, Guoliang Xing</p>
+            <div class="work-meta"><span class="year">2026</span><span class="status">ACM MobiSys</span></div>
             <nav class="work-links" aria-label="holomobile resources"><a href="https://doi.org/10.1145/3745756.3809219" target="_blank" rel="noopener noreferrer">Paper <span aria-hidden="true">↗</span></a><a href="https://youtu.be/kfOFV7AiP5A" target="_blank" rel="noopener noreferrer">Video <span aria-hidden="true">↗</span></a></nav>
-          </header>
-          <div class="paper-body">
-            <figure class="paper-media">
-              <a href="assets/holomobile-demo.gif" target="_blank" rel="noopener noreferrer" aria-label="View holomobile image at full size">
-                <picture><source media="(prefers-reduced-motion: reduce)" srcset="assets/holomobile-poster.webp"><img src="assets/holomobile-demo.gif" alt="HoloMobile demonstration showing mobile video capture of a person and an avatar performing custom motion." width="720" height="405" loading="lazy" decoding="async"></picture>
-              </a>
-              <figcaption>Mobile capture and a photorealistic avatar with custom motion.</figcaption>
-            </figure>
+            </header>
             <p class="summary">HoloMobile builds photorealistic, animatable avatars from monocular video using compact dynamic Gaussians, enabling mobile capture and real-time avatar viewing on mobile devices.</p>
           </div>
         </article>
         <article class="work-card" id="deepfeature" aria-labelledby="deepfeature-title">
-          <header class="paper-heading">
-            <div class="work-meta"><span class="year">2026</span><span class="status">ACM IMWUT</span></div>
+          <figure class="paper-media">
+          <a href="assets/deepfeature-overview.webp" target="_blank" rel="noopener noreferrer" aria-label="View deepfeature image at full size">
+          <img src="assets/deepfeature-overview.webp" alt="DeepFeature framework: multi-source feature generation, feature-to-code translation, and iterative refinement for wearable biosignals." width="1500" height="712" loading="lazy" decoding="async">
+          </a>
+          </figure>
+          <div class="paper-details">
+            <header class="paper-heading">
             <h3 id="deepfeature-title">DeepFeature: LLM-Empowered Context-aware Feature Generation for Wearable Biosignals</h3>
             <p class="authors">Kaiwei Liu, <strong>Yuting He</strong>, Bufang Yang, Mu Yuan, Chun Man Victor Wong, Ho Pong Andrew Sze, Guoliang Xing, Zhenyu Yan, Hongkai Chen</p>
+            <div class="work-meta"><span class="year">2026</span><span class="status">ACM IMWUT</span></div>
             <nav class="work-links" aria-label="deepfeature resources"><a href="https://doi.org/10.1145/3831996" target="_blank" rel="noopener noreferrer">Paper <span aria-hidden="true">↗</span></a><a href="https://arxiv.org/abs/2512.08379" target="_blank" rel="noopener noreferrer">arXiv <span aria-hidden="true">↗</span></a></nav>
-          </header>
-          <div class="paper-body">
-            <figure class="paper-media">
-              <a href="assets/deepfeature-overview.webp" target="_blank" rel="noopener noreferrer" aria-label="View deepfeature image at full size">
-                <img src="assets/deepfeature-overview.webp" alt="DeepFeature framework: multi-source feature generation, feature-to-code translation, and iterative refinement for wearable biosignals." width="1500" height="712" loading="lazy" decoding="async">
-              </a>
-              <figcaption>Context-aware feature generation, code translation, and refinement.</figcaption>
-            </figure>
+            </header>
             <p class="summary">DeepFeature uses task context and expert knowledge to generate interpretable biosignal features. It translates feature descriptions into executable code and refines them using downstream model feedback.</p>
           </div>
         </article>
         <article class="work-card" id="myotrainer" aria-labelledby="myotrainer-title">
-          <header class="paper-heading">
-            <div class="work-meta"><span class="year">2025</span><span class="status">ACM MobiCom</span></div>
+          <figure class="paper-media">
+          <a href="assets/myotrainer-demo.gif" target="_blank" rel="noopener noreferrer" aria-label="View myotrainer image at full size">
+          <picture><source media="(prefers-reduced-motion: reduce)" srcset="assets/myotrainer-poster.webp"><img src="assets/myotrainer-demo.gif" alt="Myo-Trainer demo identifying a biceps curl and visualizing estimated muscle activation from video." width="720" height="559" loading="lazy" decoding="async"></picture>
+          </a>
+          </figure>
+          <div class="paper-details">
+            <header class="paper-heading">
             <h3 id="myotrainer-title">Myo-Trainer: A Vision-based Muscle-Aware Motion Feedback System for In-Home Resistance Training</h3>
             <p class="authors"><strong>Yuting He</strong>, Xinyan Wang, Mu Yuan, Bufang Yang, Siyang Jiang, Yihua Huang, Doris S. F. Yu, Guoliang Xing, Hongkai Chen</p>
+            <div class="work-meta"><span class="year">2025</span><span class="status">ACM MobiCom</span></div>
             <nav class="work-links" aria-label="myotrainer resources"><a href="https://doi.org/10.1145/3680207.3765243" target="_blank" rel="noopener noreferrer">Paper <span aria-hidden="true">↗</span></a><a href="https://github.com/YutingHe23/Myo-Trainer" target="_blank" rel="noopener noreferrer">Code <span aria-hidden="true">↗</span></a></nav>
-          </header>
-          <div class="paper-body">
-            <figure class="paper-media">
-              <a href="assets/myotrainer-demo.gif" target="_blank" rel="noopener noreferrer" aria-label="View myotrainer image at full size">
-                <picture><source media="(prefers-reduced-motion: reduce)" srcset="assets/myotrainer-poster.webp"><img src="assets/myotrainer-demo.gif" alt="Myo-Trainer demo identifying a biceps curl and visualizing estimated muscle activation from video." width="720" height="559" loading="lazy" decoding="async"></picture>
-              </a>
-              <figcaption>Motion analysis and muscle-aware feedback for resistance training.</figcaption>
-            </figure>
+            </header>
             <p class="summary">Myo-Trainer learns the relationship between visual motion and muscle activity, then uses video to analyze exercise technique and provide muscle-aware feedback for resistance training at home.</p>
           </div>
         </article>
         <article class="work-card" id="learning-critically" aria-labelledby="learning-critically-title">
-          <header class="paper-heading">
-            <div class="work-meta"><span class="year">2024</span><span class="status">IEEE Transactions on Big Data · Early access 2022</span></div>
+          <figure class="paper-media">
+          <a href="assets/learning-critically-framework.webp" target="_blank" rel="noopener noreferrer" aria-label="View learning-critically image at full size">
+          <img src="assets/learning-critically-framework.webp" alt="Selective self-distillation framework showing federated server aggregation, a credibility matrix, and local training." width="1300" height="499" loading="lazy" decoding="async">
+          </a>
+          </figure>
+          <div class="paper-details">
+            <header class="paper-heading">
             <h3 id="learning-critically-title">Learning Critically: Selective Self-Distillation in Federated Learning on Non-IID Data</h3>
             <p class="authors"><strong>Yuting He</strong>, Yiqiang Chen, Xiaodong Yang, Hanchao Yu, Yi-Hua Huang, Yang Gu</p>
+            <div class="work-meta"><span class="year">2024</span><span class="status">IEEE Transactions on Big Data · Early access 2022</span></div>
             <nav class="work-links" aria-label="learning-critically resources"><a href="https://doi.org/10.1109/TBDATA.2022.3189703" target="_blank" rel="noopener noreferrer">Paper <span aria-hidden="true">↗</span></a></nav>
-          </header>
-          <div class="paper-body">
-            <figure class="paper-media">
-              <a href="assets/learning-critically-framework.webp" target="_blank" rel="noopener noreferrer" aria-label="View learning-critically image at full size">
-                <img src="assets/learning-critically-framework.webp" alt="Selective self-distillation framework showing federated server aggregation, a credibility matrix, and local training." width="1300" height="499" loading="lazy" decoding="async">
-              </a>
-              <figcaption>Selective knowledge transfer between global and local models.</figcaption>
-            </figure>
+            </header>
             <p class="summary">A selective self-distillation method for federated learning on heterogeneous client data. Local models use a credibility matrix to decide which knowledge to transfer from the global model.</p>
           </div>
         </article>
